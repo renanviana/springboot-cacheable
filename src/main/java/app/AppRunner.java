@@ -3,11 +3,13 @@ package app;
 import java.util.Scanner;
 
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 import model.IPessoa;
 
 @Component
+@ComponentScan({"service"})
 public class AppRunner implements CommandLineRunner {
 
 	private final IPessoa ipessoa;

@@ -1,4 +1,4 @@
-package app;
+package service;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Component;
